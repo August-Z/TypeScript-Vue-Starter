@@ -1,31 +1,31 @@
 {
   "name": "typescript-vue-starter",
   "version": "1.0.0",
-  "private": true,
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": {
-    "name": "Daniel Rosenwasser",
-    "url": "https://github.com/DanielRosenwasser"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/August-Z/TypeScript-Vue-Starter.git"
   },
-  "license": "Apache-2.0",
+  "author": "August-Z",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/August-Z/TypeScript-Vue-Starter/issues"
+  },
+  "homepage": "https://github.com/August-Z/TypeScript-Vue-Starter#readme",
   "dependencies": {
-    "vue": "^2.5.2",
-    "vue-class-component": "^6.0.0",
-    "vue-property-decorator": "^6.0.0",
-    "vue-router": "^3.0.1"
+    "vue": "^2.5.13"
   },
   "devDependencies": {
-    "css-loader": "^0.28.1",
-    "ts-loader": "^2.0.3",
-    "typescript": "^2.3.2",
-    "vue-loader": "^12.0.3",
-    "vue-template-compiler": "^2.5.2",
-    "webpack": "^2.5.0"
+    "css-loader": "^0.28.7",
+    "ts-loader": "^3.2.0",
+    "typescript": "^2.6.2",
+    "vue-loader": "^13.6.0",
+    "vue-template-compiler": "^2.5.13",
+    "webpack": "^3.10.0"
   }
 }
